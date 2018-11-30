@@ -30,18 +30,16 @@ docker run -v
 \~/desktop/config.ini:/src/Part\_2/Classification/config.ini
 ankit08015/ads-midterm sh /src/Part\_1/runPart1.sh
 
-docker run -it ankit08015/ads-midterm sh /src/Part\_1/runPart1.sh
-
 Commit the container using
 
-docker commit \<container\_id\> ankit08015/ads-test
+docker commit \<container\_id\> ankit08015/ads-midterm
 
 **Now, run the Jupiter notebook from below command to see the analysis
 and EDA.**
 
 *Name- Part\_1/Part1-EDA.ipynb*
 
-docker run -it -p 8888:8888 ankit08015/ads-test jupyter notebook \--ip
+docker run -it -p 8888:8888 ankit08015/ads-midterm jupyter notebook \--ip
 0.0.0.0 \--no-browser \--allow-root
 
 **Part 2:**
@@ -70,7 +68,7 @@ In this part everythinh is done on jupyter notebook. So, there is no data to dow
 
 Run using following command-
 
-docker run -it -p 8888:8888 ankit08015/ads-test jupyter notebook \--ip
+docker run -it -p 8888:8888 ankit08015/ads-midterm jupyter notebook \--ip
 0.0.0.0 \--no-browser \--allow-root
 
 
@@ -91,11 +89,11 @@ ankit08015/ads-midterm sh
 
 Now commit the container
 
-docker commit \<container\_id\> ankit08015/ads-test
+docker commit \<container\_id\> ankit08015/ads-midterm
 
 Now use following command to view analysis in notebooks.
 
 *Path is- Part\_2/Classification*
 
-docker run -it -p 8888:8888 ankit08015/ads-test jupyter notebook \--ip
+docker run -it -p 8888:8888 ankit08015/ads-midterm jupyter notebook \--ip
 0.0.0.0 \--no-browser \--allow-root
