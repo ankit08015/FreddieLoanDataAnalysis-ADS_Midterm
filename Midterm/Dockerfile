@@ -74,6 +74,7 @@ ENV SCRIPTSPATHS=/src/Part_1
 
 ADD Part_2/Classification/* /src/Part_2/Classification/
 ADD Part_1/* /src/Part_1/
+ADD Part_2/Prediction/* /src/Part_2/Prediction/
 
 
 #testing
