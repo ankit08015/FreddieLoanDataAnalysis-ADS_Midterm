@@ -6,7 +6,7 @@ Pull the image using following command
 
 docker pull ankit08015/ads-midterm
 
-**Part 1:**
+### Part 1:
 
 **Config file Format:-**
 
@@ -42,7 +42,7 @@ and EDA.**
 docker run -it -p 8888:8888 ankit08015/ads-midterm jupyter notebook \--ip
 0.0.0.0 \--no-browser \--allow-root
 
-**Part 2:**
+### Part 2:
 
 **Config file Format:-**
 
