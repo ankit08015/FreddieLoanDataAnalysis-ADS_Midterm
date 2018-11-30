@@ -64,6 +64,16 @@ testQ= {TestQuarter}
 
 **A. Prediction:**
 
+In this part everythinh is done on jupyter notebook. So, there is no data to download.
+
+*Path- /src/Part\_2/Prediction*
+
+Run using following command-
+
+docker run -it -p 8888:8888 ankit08015/ads-test jupyter notebook \--ip
+0.0.0.0 \--no-browser \--allow-root
+
+
 **B. Classification:**
 
 Download the data for single quarter using following command
