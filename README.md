@@ -1,6 +1,6 @@
 # FreddieLoanDataAnalysis-Midterm
 
-**[Instructions for running docker file]**
+**Instructions for running docker file**
 
 Pull the image using following command
 
